@@ -1,0 +1,155 @@
+name: izinto
+description: On-demand platform
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  get: ^4.6.1
+  dots_indicator: ^2.1.0
+  cupertino_icons: ^1.0.2
+  firebase_image: ^1.1.1
+  firebase_core: ^1.13.1
+  firebase_core_platform_interface: 4.5.1
+  firebase_storage: ^10.2.9
+  firebase_auth: ^3.3.9
+  cloud_firestore: ^3.1.10
+  persistent_bottom_nav_bar: ^4.0.2
+  shared_preferences: ^2.0.13
+  font_awesome_flutter: ^10.1.0
+  intl: ^0.17.0
+  material_design_icons_flutter: ^6.0.7096
+  google_sign_in: ^5.4.2
+  progress_indicators: ^1.0.0
+  device_info_plus: ^8.0.0
+  package_info_plus: ^3.0.0
+  flutter_native_splash: ^2.2.18
+  simple_circular_progress_bar: ^1.0.2
+  pinput: ^2.2.16
+  provider: ^6.0.4
+  flutter_spinkit: ^5.1.0
+  location: ^4.4.0
+  geolocator: ^9.0.2
+  geocoding: ^2.0.5
+  http: ^0.13.5
+  flutter_google_places: ^0.3.0
+  google_maps_flutter: ^2.0.6
+  flutter_typeahead: ^4.1.1
+  google_place: ^0.4.7
+  uuid: ^3.0.7
+  flutter_statusbarcolor_ns: ^0.5.0
+  flutter_local_notifications: ^13.0.0
+  form_builder_extra_fields: ^9.0.0
+  #  form_builder_extra_fields:
+  #    git:
+  #      url: https://github.com/rvndsngwn/form_builder_extra_fields.git
+  google_maps_webservice: ^0.0.20-nullsafety.5
+  google_maps_flutter_web: ^0.4.0+5
+  logger: ^1.1.0
+  awesome_dialog: ^3.0.2
+  purchases_flutter: ^4.10.2
+  url_launcher: ^6.1.10
+  showcaseview: ^2.0.1
+  firebase_messaging: ^13.1.0
+  image_cropper: ^3.0.2
+  path_provider: ^2.0.14
+  flutter_image_compress: ^1.1.3
+  compress_images_flutter: ^0.0.3+4
+  webview_flutter: ^4.0.7
+  firebase_analytics: ^9.3.8
+  connectivity_plus: ^3.0.4
+  otp_text_field: ^1.1.3
+  sms_autofill: ^2.3.0
+  timer_count_down: ^2.2.2
+  lottie: ^2.0.0
+  page_transition: ^2.0.9
+  swipeable_button_view: ^0.0.2
+  envied: ^0.3.0+3
+  device_preview: ^1.1.0
+  fluttertoast: ^8.2.2
+  flutter_paystack: ^1.0.7
+
+
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/logos/splash_screen_logo.png
+  android: true
+  ios: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #flutter_launcher_icons: ^0.10.0
+
+
+flutter_icons:
+  image_path:  "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23344154' fill-opacity='0.53' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E"
+  android: true
+  ios: true
+  adaptive_icon_foreground: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23344154' fill-opacity='0.53' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E"
+  adaptive_icon_background: "#B09B78"
+
+
+  flutter_lints: ^1.0.0
+flutter_launcher_name:
+  name: "Izinto"
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/DB/specialties/
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/font/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/font/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/font/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/font/Roboto-Black.ttf
+          weight: 900
+    - family: BIZUDGothic
+      fonts:
+        - asset: assets/font/BIZUDGothic-Regular.ttf
+          weight: 400
+    - family: Hind
+      fonts:
+        - asset: assets/font/Hind-Regular.ttf
+          weight: 400
+    - family: Poppins
+      fonts:
+        - asset: assets/font/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/font/Poppins-SemiBold.ttf
+          weight: 500
+        - asset: assets/font/Poppins-Bold.ttf
+          weight: 600
+    - family: Mukta
+      fonts:
+        - asset: assets/font/Mukta-Regular.ttf
+          weight: 400
+        - asset: assets/font/Mukta-SemiBold.ttf
+          weight: 500
+        - asset: assets/font/Mukta-Bold.ttf
+          weight: 600
+    - family: Kanit
+      fonts:
+        - asset: assets/font/Kanit-Black.ttf
+          weight: 400
+        - asset: assets/font/Kanit-ExtraLight.ttf
+          weight: 300
+        - asset: assets/font/Kanit-Bold.ttf
+          weight: 600
+
