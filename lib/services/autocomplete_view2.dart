@@ -3,7 +3,6 @@ import 'package:http/http.dart';
 
 import '../logger.dart';
 
-
 class AutoCompleteState {
   AutoCompleteState({
     this.httpClient,
@@ -25,48 +24,48 @@ class AutoCompleteState {
 
   /// void future function to get the autocomplete results.
   Future<List<Prediction>> search(
-      /// final String input,
-      String query,
+    /// final String input,
+    String query,
 
-      /// API key for Google Places API
-      String apiKey, {
-        /// Session token for Google Places API
-        String? sessionToken,
+    /// API key for Google Places API
+    String apiKey, {
+    /// Session token for Google Places API
+    String? sessionToken,
 
-        /// Offset for pagination of results
-        /// offset: int,
-        num? offset,
+    /// Offset for pagination of results
+    /// offset: int,
+    num? offset,
 
-        /// Origin location for calculating distance from results
-        /// origin: Location(lat: -33.852, lng: 151.211),
-        Location? origin,
+    /// Origin location for calculating distance from results
+    /// origin: Location(lat: -33.852, lng: 151.211),
+    Location? origin,
 
-        /// Location bounds for restricting results to a radius around a location
-        /// location: Location(lat: -33.867, lng: 151.195)
-        Location? location,
+    /// Location bounds for restricting results to a radius around a location
+    /// location: Location(lat: -33.867, lng: 151.195)
+    Location? location,
 
-        /// Radius for restricting results to a radius around a location
-        /// radius: Radius in meters
-        num? radius,
+    /// Radius for restricting results to a radius around a location
+    /// radius: Radius in meters
+    num? radius,
 
-        /// Language code for Places API results
-        /// language: 'en',
-        String? language,
+    /// Language code for Places API results
+    /// language: 'en',
+    String? language,
 
-        /// Types for restricting results to a set of place types
-        List<String> types = const [],
+    /// Types for restricting results to a set of place types
+    List<String> types = const [],
 
-        /// Components set results to be restricted to a specific area
-        /// components: [Component(Component.country, "us")]
-        List<Component> components = const [],
+    /// Components set results to be restricted to a specific area
+    /// components: [Component(Component.country, "us")]
+    List<Component> components = const [],
 
-        /// Bounds for restricting results to a set of bounds
-        bool strictbounds = false,
+    /// Bounds for restricting results to a set of bounds
+    bool strictbounds = false,
 
-        /// Region for restricting results to a set of regions
-        /// region: "us"
-        String? region,
-      }) async {
+    /// Region for restricting results to a set of regions
+    /// region: "us"
+    String? region,
+  }) async {
     try {
       final places = GoogleMapsPlaces(
         apiKey: 'AIzaSyALrigbT8y8vnlUT3XVGDnPZqfiWLTzm6o',

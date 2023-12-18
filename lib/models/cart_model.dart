@@ -1,5 +1,3 @@
-
-
 import 'package:Izinto/models/popular_specialty_model.dart';
 
 class CartModel {

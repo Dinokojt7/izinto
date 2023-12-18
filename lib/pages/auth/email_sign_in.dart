@@ -203,7 +203,6 @@ class _EmailSignInState extends State<EmailSignIn> {
                                             ),
                                           ),
                                         ),
-
                                         Text(
                                           error,
                                           style: TextStyle(
@@ -320,11 +319,9 @@ class _EmailSignInState extends State<EmailSignIn> {
                                         SizedBox(
                                             height: Dimensions.screenHeight *
                                                 0.035),
-
                                         SizedBox(
                                             height: Dimensions.screenHeight *
                                                 0.035),
-
                                       ],
                                     ),
                                   ),
@@ -336,65 +333,69 @@ class _EmailSignInState extends State<EmailSignIn> {
                   },
                 ),
               ),
-              GestureDetector(   onTap: () async {
-                FocusScope.of(context).unfocus();
-                User? user = await _firebaseAuth.currentUser;
-                new TextEditingController().clear();
+              GestureDetector(
+                onTap: () async {
+                  FocusScope.of(context).unfocus();
+                  User? user = await _firebaseAuth.currentUser;
+                  new TextEditingController().clear();
 
-                if (passwordController.text.length > 6 &&
-                    emailController.text.isEmail) {
-                  setState(() {
-                    isLoading = true;
-                    borderError = false;
-                  });
-                  setState(() {
-                    errorPassword = '';
-                    error = '';
-                  });
-                  dynamic result = await _auth.signUpWithEmail(
-                      email: email, password: password, context: context);
-
-                  if (result == null) {
+                  if (passwordController.text.length > 6 &&
+                      emailController.text.isEmail) {
                     setState(() {
-                      errorPassword =
-                      'Email or password you entered is invalid.';
-                      isLoading = false;
+                      isLoading = true;
+                      borderError = false;
+                    });
+                    setState(() {
+                      errorPassword = '';
+                      error = '';
+                    });
+                    dynamic result = await _auth.signUpWithEmail(
+                        email: email, password: password, context: context);
+
+                    if (result == null) {
+                      setState(() {
+                        errorPassword =
+                            'Email or password you entered is invalid.';
+                        isLoading = false;
+                      });
+                    }
+
+                    if (result != null) {
+                      Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                              builder: (BuildContext context) =>
+                                  LocationAccess()));
+                    }
+                  }
+
+                  if (passwordController.text.isEmpty) {
+                    setState(() {
+                      errorPassword = '';
+                      passwordBorder = false;
+                      error = '';
+                      borderError = false;
+                    });
+                    ;
+                  }
+                  if (!emailController.text.isEmail) {
+                    setState(() {
+                      error = 'Email is invalid';
+                      borderError = true;
+                      errorPassword = '';
+                      passwordBorder = false;
+                    });
+                  } else {
+                    setState(() {
+                      error = '';
+                      borderError = false;
                     });
                   }
-
-                  if (result != null) {
-                    Navigator.pushReplacement(
-                        context,
-                        MaterialPageRoute(
-                            builder: (BuildContext context) =>
-                                LocationAccess()));
-                  }
-                }
-
-                if (passwordController.text.isEmpty) {
-                  setState(() {
-                    errorPassword = '';
-                    passwordBorder = false;
-                    error = '';
-                    borderError = false;
-                  });
-                  ;
-                }
-                if (!emailController.text.isEmail) {
-                  setState(() {
-                    error = 'Email is invalid';
-                    borderError = true;
-                    errorPassword = '';
-                    passwordBorder = false;
-                  });
-                } else {
-                  setState(() {
-                    error = '';
-                    borderError = false;
-                  });
-                }
-              },
-                child: EmailSignInButton(passwordController: passwordController, emailController: emailController, isLoading: isLoading),
+                },
+                child: EmailSignInButton(
+                    passwordController: passwordController,
+                    emailController: emailController,
+                    isLoading: isLoading),
               )
             ],
           ),
@@ -405,5 +406,3 @@ class _EmailSignInState extends State<EmailSignIn> {
     );
   }
 }
-
-

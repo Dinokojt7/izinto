@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 import '../../../services/firebase_auth_methods.dart';
 import '../../../utils/colors.dart';
 import '../../../utils/dimensions.dart';
