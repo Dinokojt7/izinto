@@ -1,9 +1,9 @@
+import 'package:Izinto/pages/options/settings_view/with_user.dart';
+import 'package:Izinto/pages/options/settings_view/without_user.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:izinto/pages/options/settings_view/without_user.dart';
-import 'package:izinto/pages/options/settings_view/with_user.dart';
 import 'package:provider/provider.dart';
 import '../../../models/user.dart';
 import '../../../utils/dimensions.dart';

@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:izinto/utils/dimensions.dart';
 
 import '../../utils/colors.dart';
+import '../../utils/dimensions.dart';
 import 'app_icon.dart';
 
 class AccountWidget extends StatelessWidget {

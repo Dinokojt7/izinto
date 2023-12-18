@@ -1,11 +1,11 @@
+import 'package:Izinto/widgets/texts/big_text.dart';
+import 'package:Izinto/widgets/texts/small_text.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:izinto/utils/colors.dart';
-import 'package:izinto/utils/dimensions.dart';
-import 'package:izinto/widgets/texts/big_text.dart';
-import 'package:izinto/widgets/texts/small_text.dart';
 
 import '../pages/cart/cart_page.dart';
+import '../utils/colors.dart';
+import '../utils/dimensions.dart';
 
 class cartSubCard extends StatelessWidget {
   const cartSubCard({

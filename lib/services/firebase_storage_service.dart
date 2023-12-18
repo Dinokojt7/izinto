@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:izinto/models/popular_specialty_model.dart';
+
+import '../models/popular_specialty_model.dart';
 
 class DatabaseService {
   final String? uid;

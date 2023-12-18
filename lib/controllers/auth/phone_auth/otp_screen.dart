@@ -1,6 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:izinto/pages/home/home_page.dart';
 import 'package:pinput/pinput.dart';
 import 'package:timer_count_down/timer_controller.dart';
 import 'package:sms_autofill/sms_autofill.dart';
@@ -10,6 +9,7 @@ import 'package:timer_count_down/timer_controller.dart';
 import 'package:timer_count_down/timer_count_down.dart';
 import '../../../base/show_snackbar.dart';
 import '../../../pages/auth/get_started.dart';
+import '../../../pages/home/home_page.dart';
 import '../../../pages/on_boarding/location_access.dart';
 import '../../../services/firebase_auth_methods.dart';
 import '../../../services/firebase_storage_service.dart';

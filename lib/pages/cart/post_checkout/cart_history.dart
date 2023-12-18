@@ -4,16 +4,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:izinto/base/no_data_page.dart';
-import 'package:izinto/controllers/cart_controller.dart';
 import 'package:intl/intl.dart';
-import 'package:izinto/routes/route_helper.dart';
-import 'package:izinto/utils/colors.dart';
-import 'package:izinto/widgets/miscellaneous/app_icon.dart';
-import 'package:izinto/widgets/texts/big_text.dart';
-import 'package:izinto/widgets/texts/small_text.dart';
+
+import '../../../base/no_data_page.dart';
+import '../../../controllers/cart_controller.dart';
 import '../../../models/cart_model.dart';
+import '../../../routes/route_helper.dart';
+import '../../../utils/colors.dart';
 import '../../../utils/dimensions.dart';
+import '../../../widgets/miscellaneous/app_icon.dart';
+import '../../../widgets/texts/big_text.dart';
+import '../../../widgets/texts/small_text.dart';
 
 class CartHistory extends StatelessWidget {
   const CartHistory({Key? key}) : super(key: key);

@@ -3,16 +3,16 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:izinto/pages/home/main_components/main_specialty_page.dart';
-import 'package:izinto/pages/notifications/inbox_view.dart';
-import 'package:izinto/pages/options/settings_view/main_settings_view.dart';
-import 'package:izinto/utils/colors.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 import 'package:provider/provider.dart';
 import '../../models/user.dart';
+import '../../utils/colors.dart';
 import '../../utils/dimensions.dart';
 import '../cart/post_checkout/cart_history_items.dart';
+import '../notifications/inbox_view.dart';
 import '../options/profile_settings.dart';
+import '../options/settings_view/main_settings_view.dart';
+import 'main_components/main_specialty_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);

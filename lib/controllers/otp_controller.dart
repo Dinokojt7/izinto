@@ -1,5 +1,4 @@
 import 'package:get/get.dart';
-import 'package:izinto/pages/home/wrapper.dart';
 import 'package:flutter/material.dart';
 import '../pages/on_boarding/location_access.dart';
 import '../services/firebase_auth_methods.dart';

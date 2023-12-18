@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_state_manager/src/simple/get_state.dart';
-import 'package:izinto/pages/cart/re_cart.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 import '../../controllers/cart_controller.dart';
 import '../../pages/cart/cart_page.dart';
+import '../../pages/cart/re_cart.dart';
 import '../../utils/colors.dart';
 import '../../utils/dimensions.dart';
 

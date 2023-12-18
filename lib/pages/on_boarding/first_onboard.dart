@@ -1,9 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:izinto/utils/dimensions.dart';
-import 'package:izinto/widgets/miscellaneous/app_circle_button.dart';
-import 'package:izinto/widgets/texts/small_text.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
+
+import '../../utils/dimensions.dart';
+import '../../widgets/miscellaneous/app_circle_button.dart';
+import '../../widgets/texts/small_text.dart';
 
 class FirstOnboardingScreen extends StatelessWidget {
   const FirstOnboardingScreen({Key? key}) : super(key: key);

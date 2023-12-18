@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:izinto/utils/colors.dart';
+
+import '../utils/colors.dart';
 
 class CustomLoader extends StatelessWidget {
   const CustomLoader({Key? key}) : super(key: key);

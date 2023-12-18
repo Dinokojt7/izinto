@@ -2,17 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:intl/intl.dart';
-import 'package:izinto/pages/checkout/order_received.dart';
-import 'package:izinto/pages/home/wrapper.dart';
-import 'package:izinto/widgets/main_buttons/success_to_order_button.dart';
-import 'package:izinto/widgets/texts/integers_and_doubles.dart';
+
 import 'package:lottie/lottie.dart';
 import 'package:flutter/gestures.dart';
 import '../../utils/colors.dart';
 import '../../utils/dimensions.dart';
+import '../../widgets/main_buttons/success_to_order_button.dart';
 import '../../widgets/texts/big_text.dart';
+import '../../widgets/texts/integers_and_doubles.dart';
 import '../../widgets/texts/small_text.dart';
+import '../home/wrapper.dart';
 import '../notifications/inbox_view.dart';
+import 'order_received.dart';
 
 class OrderSuccess extends StatefulWidget {
   final String orderNumber;

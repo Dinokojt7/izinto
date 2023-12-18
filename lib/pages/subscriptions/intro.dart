@@ -1,3 +1,4 @@
+import 'package:Izinto/pages/subscriptions/subscriptions.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -6,8 +7,6 @@ import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_state_manager/src/simple/get_state.dart';
 import 'package:intl/intl.dart';
-import 'package:izinto/pages/subscriptions/subscriptions.dart';
-import 'package:izinto/widgets/texts/integers_and_doubles.dart';
 import 'package:provider/provider.dart';
 
 import '../../controllers/subscriptions.dart';
@@ -19,6 +18,7 @@ import '../../utils/dimensions.dart';
 import '../../widgets/location/address_details_view.dart';
 import '../../widgets/main_buttons/continue_button.dart';
 import '../../widgets/texts/big_text.dart';
+import '../../widgets/texts/integers_and_doubles.dart';
 import '../../widgets/texts/small_text.dart';
 import '../auth/access.dart';
 import '../auth/login.dart';

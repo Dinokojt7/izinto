@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:izinto/models/popular_specialty_model.dart';
 import '../helpers/data/repository/cart_repo.dart';
 import '../models/cart_model.dart';
+import '../models/popular_specialty_model.dart';
 
 class CartController extends GetxController {
   final CartRepo cartRepo;

@@ -1,7 +1,8 @@
 import 'package:get/get_connect/http/src/response/response.dart';
-import 'package:izinto/helpers/data/api/api_client.dart';
-
 import '../../../utils/app_constants.dart';
+import '../api/api_client.dart';
+
+
 
 class UserRepo {
   final ApiClient apiClient;

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:izinto/utils/dimensions.dart';
-
+import '../../../utils/dimensions.dart';
 class BigText extends StatelessWidget {
   Color? color;
   final String text;

@@ -2,18 +2,16 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:izinto/pages/options/location_settings.dart';
-import 'package:izinto/widgets/keep_page_alive.dart';
-import 'package:izinto/widgets/texts/integers_and_doubles.dart';
-import 'package:izinto/widgets/texts/small_text.dart';
 import 'package:pinput/pinput.dart';
 import 'package:provider/provider.dart';
 import '../../models/user.dart';
 import '../../services/map_function.dart';
 import '../../utils/colors.dart';
 import '../../utils/dimensions.dart';
+import '../keep_page_alive.dart';
 import '../miscellaneous/app_icon.dart';
 import '../texts/big_text.dart';
+import '../texts/integers_and_doubles.dart';
 
 class CarVenueSettings extends StatefulWidget {
   const CarVenueSettings({Key? key}) : super(key: key);

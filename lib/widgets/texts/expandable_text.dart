@@ -1,12 +1,10 @@
 import 'dart:ui';
-
+import '../../utils/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:izinto/utils/colors.dart';
-import 'package:izinto/utils/dimensions.dart';
-import 'package:izinto/widgets/texts/small_text.dart';
+import '../../../utils/dimensions.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-
+import '../texts/small_text.dart';
 import 'integers_and_doubles.dart';
 
 class ExpandableText extends StatefulWidget {
@@ -54,7 +52,7 @@ class _ExpandableTextState extends State<ExpandableText> {
               children: [
                 SmallText(
                   height: 1.8,
-                  color: AppColors.paraColor,
+                  color:AppColors.paraColor,
                   size: Dimensions.font16,
                   text: hiddenText
                       ? (firstHalf + "...")

@@ -6,13 +6,13 @@ import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:izinto/pages/options/profile_settings.dart';
 
 import '../../services/firebase_storage_service.dart';
 import '../../services/location_manager.dart';
 import '../../utils/colors.dart';
 import '../../utils/dimensions.dart';
 import '../../widgets/texts/big_text.dart';
+import '../options/profile_settings.dart';
 
 class LocationAccess extends StatefulWidget {
   const LocationAccess({

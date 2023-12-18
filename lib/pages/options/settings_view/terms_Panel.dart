@@ -2,8 +2,9 @@ import '../../../utils/dimensions.dart';
 import '../../../widgets/miscellaneous/app_icon.dart';
 import '../../../widgets/texts/big_text.dart';
 import 'package:flutter/material.dart';
-import 'package:izinto/widgets/texts/small_text.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
+
+import '../../../widgets/texts/small_text.dart';
 
 class TermsPanel extends StatefulWidget {
   final String title;

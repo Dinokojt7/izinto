@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:izinto/utils/dimensions.dart';
-import 'package:izinto/widgets/texts/integers_and_doubles.dart';
+
+import '../../utils/dimensions.dart';
+import '../texts/integers_and_doubles.dart';
 
 class PlaceNotSupported extends StatelessWidget {
   const PlaceNotSupported({Key? key}) : super(key: key);

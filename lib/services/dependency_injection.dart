@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
-import 'package:izinto/controllers/network_controller.dart';
+
+import '../controllers/network_controller.dart';
 
 class NetworkInjection {
   static void init() {

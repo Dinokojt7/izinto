@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:izinto/helpers/data/api/api_client.dart';
-import 'package:izinto/utils/app_constants.dart';
+import '../../../utils/app_constants.dart';
+import '../api/api_client.dart';
 
 class LaundrySupportQuestionsRepo extends GetxService {
   final ApiClient apiClient;

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:izinto/utils/dimensions.dart';
+import '../../../utils/dimensions.dart';
 
 class IntegerText extends StatelessWidget {
   Color? color;

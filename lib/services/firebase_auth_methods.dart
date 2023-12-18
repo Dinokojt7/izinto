@@ -5,23 +5,21 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:izinto/models/user.dart';
-import 'package:izinto/pages/auth/phone_auth.dart';
-import 'package:izinto/pages/auth/get_started.dart';
-import 'package:izinto/pages/home/specialty_page_body.dart';
-import 'package:izinto/routes/route_helper.dart';
-import 'package:izinto/services/firebase_storage_service.dart';
 import '../base/show_snackbar.dart';
 import '../controllers/auth/countdown_controller.dart';
 import '../controllers/auth/phone_auth/otp_screen.dart';
+import '../models/user.dart';
+import '../pages/auth/get_started.dart';
 import '../pages/auth/otp_screen.dart';
 import '../pages/auth/phone_auth/otp_view.dart';
 import '../pages/home/home_page.dart';
+import '../pages/home/specialty_page_body.dart';
 import '../pages/on_boarding/location_access.dart';
 import '../pages/options/profile_settings.dart';
 import '../utils/app_dialog.dart';
 import '../utils/dimensions.dart';
 import '../utils/showOtpDialog.dart';
+import 'firebase_storage_service.dart';
 
 class FirebaseAuthMethods {
   final FirebaseAuth _auth = FirebaseAuth.instance;

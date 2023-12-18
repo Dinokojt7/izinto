@@ -1,11 +1,11 @@
+import 'package:Izinto/pages/options/settings_view/terms_Panel.dart';
+import 'package:Izinto/pages/options/settings_view/terms_of_use_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
-import 'package:izinto/widgets/texts/small_text.dart';
-import 'package:izinto/pages/options/settings_view/terms_Panel.dart';
-import 'package:izinto/pages/options/settings_view/terms_of_use_text.dart';
 
 import '../../../utils/colors.dart';
 import '../../../utils/dimensions.dart';
+import '../../../widgets/texts/small_text.dart';
 
 class TermsOfUse extends StatefulWidget {
   const TermsOfUse({Key? key}) : super(key: key);

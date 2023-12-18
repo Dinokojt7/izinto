@@ -4,7 +4,6 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_paystack/flutter_paystack.dart';
 import 'package:get/get.dart';
-import 'package:izinto/widgets/dialogs/token_display/token_status_dialog.dart';
 import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
 import '../../../base/transition.dart';

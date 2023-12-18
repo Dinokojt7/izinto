@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:izinto/pages/subscriptions/subscriptions.dart';
 import '../../../pages/subscriptions/car_wash_subscription.dart';
+import '../../../pages/subscriptions/subscriptions.dart';
 import '../../../utils/colors.dart';
 import '../../../utils/dimensions.dart';
 import 'apply_sub_column.dart';

@@ -1,7 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:izinto/widgets/texts/small_text.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -9,6 +8,7 @@ import '../../models/user.dart';
 import '../../utils/dimensions.dart';
 import '../../widgets/miscellaneous/app_icon.dart';
 import '../../widgets/texts/big_text.dart';
+import '../../widgets/texts/small_text.dart';
 
 class SubscriptionPage extends StatefulWidget {
   final String quarterlyAmount;

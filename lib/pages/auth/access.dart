@@ -1,18 +1,13 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:izinto/pages/auth/get_started.dart';
-import 'package:izinto/services/location/location_model.dart';
-import 'package:izinto/widgets/texts/small_text.dart';
+
 
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:izinto/pages/auth/email_sign_in.dart';
-import 'package:izinto/pages/auth/login.dart';
-import 'package:izinto/pages/auth/sign_in.dart';
-import 'package:izinto/pages/home/home_page.dart';
+
 import 'package:provider/provider.dart';
 import '../../controllers/auth/countdown_controller.dart';
 import '../../models/user.dart';
@@ -31,6 +26,7 @@ import '../options/profile_settings.dart';
 import '../options/settings_view/terms_of_use.dart';
 import 'bottom_access_buttons/continue_with_google.dart';
 import 'bottom_access_buttons/login_later.dart';
+import 'get_started.dart';
 
 class Access extends StatefulWidget {
   const Access({Key? key}) : super(key: key);

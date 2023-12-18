@@ -1,8 +1,7 @@
+import 'package:Izinto/controllers/auth/phone_auth/otp_screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
-import 'package:izinto/controllers/auth/phone_auth/otp_screen.dart';
-import 'package:izinto/pages/home/home_page.dart';
 import 'package:otp_text_field/otp_field.dart';
 import 'package:otp_text_field/otp_field_style.dart';
 import 'package:otp_text_field/style.dart';
@@ -16,6 +15,7 @@ import '../../base/show_snackbar.dart';
 import '../../models/user.dart';
 import '../../pages/auth/sign_in.dart';
 import '../../pages/auth/get_started.dart';
+import '../../pages/home/home_page.dart';
 import '../../pages/home/wrapper.dart';
 import '../../pages/on_boarding/location_access.dart';
 import '../../pages/options/profile_settings.dart';

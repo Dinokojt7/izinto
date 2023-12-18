@@ -1,8 +1,8 @@
 import "package:google_maps_webservice/places.dart";
 import 'package:http/http.dart';
 
-import 'package:izinto/logger.dart';
 
+import '../../logger.dart';
 import '../../utils/app_constants.dart';
 
 class AutoCompleteState {

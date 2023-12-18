@@ -1,4 +1,6 @@
-import 'package:izinto/models/popular_specialty_model.dart';
+
+
+import 'package:Izinto/models/popular_specialty_model.dart';
 
 class CartModel {
   int? id;

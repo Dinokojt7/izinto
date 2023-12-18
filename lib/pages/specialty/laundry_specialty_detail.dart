@@ -4,7 +4,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:izinto/pages/options/settings_view/get_help_popup.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 import '../../controllers/cart_controller.dart';
@@ -18,6 +17,7 @@ import '../../widgets/texts/big_text.dart';
 import '../../widgets/texts/expandable_text.dart';
 import '../../widgets/texts/integers_and_doubles.dart';
 import '../../widgets/texts/small_text.dart';
+import '../options/settings_view/get_help_popup.dart';
 import '../subscriptions/subscriptions.dart';
 
 class LaundrySpecialtyDetail extends StatefulWidget {

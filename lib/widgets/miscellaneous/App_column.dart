@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:izinto/controllers/recommended_specialty_controller.dart';
-import 'package:izinto/widgets/texts/small_text.dart';
 
+import '../../controllers/recommended_specialty_controller.dart';
 import '../../utils/colors.dart';
 import '../../utils/dimensions.dart';
 import '../texts/integers_and_doubles.dart';

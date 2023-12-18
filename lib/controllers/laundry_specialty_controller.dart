@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:izinto/helpers/data/repository/laundry_specialty_repo.dart';
 
+import '../helpers/data/repository/laundry_specialty_repo.dart';
 import '../models/cart_model.dart';
 import '../models/popular_specialty_model.dart';
 import 'cart_controller.dart';

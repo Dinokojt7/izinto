@@ -7,17 +7,16 @@ import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 import 'package:get/get_state_manager/src/simple/get_state.dart';
-import 'package:izinto/pages/home/home_page.dart';
-import 'package:izinto/pages/on_boarding/location_access.dart';
-import 'package:izinto/pages/options/profile_settings.dart';
-import 'package:izinto/services/firebase_auth_methods.dart';
+
 import '../../base/custom_loader.dart';
 import '../../controllers/auth_controller.dart';
+import '../../services/firebase_auth_methods.dart';
 import '../../services/firebase_storage_service.dart';
 import '../../services/location_manager.dart';
 import '../../utils/dimensions.dart';
 import '../../widgets/texts/big_text.dart';
 import '../../widgets/main_buttons/email_sign_in_button.dart';
+import '../on_boarding/location_access.dart';
 
 class EmailSignIn extends StatefulWidget {
   const EmailSignIn({Key? key}) : super(key: key);

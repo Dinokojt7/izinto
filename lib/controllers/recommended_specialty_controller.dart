@@ -1,7 +1,8 @@
 import 'package:get/get.dart';
-import 'package:izinto/controllers/cart_controller.dart';
-import 'package:izinto/helpers/data/repository/recommended_specialty_repo.dart';
-import 'package:izinto/models/popular_specialty_model.dart';
+
+import '../helpers/data/repository/recommended_specialty_repo.dart';
+import '../models/popular_specialty_model.dart';
+import 'cart_controller.dart';
 
 class RecommendedSpecialtyController extends GetxController {
   final RecommendedSpecialtyRepo recommendedSpecialtyRepo;

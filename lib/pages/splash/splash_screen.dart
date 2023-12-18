@@ -5,17 +5,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:izinto/controllers/cart_controller.dart';
-import 'package:izinto/controllers/user_controller.dart';
-import 'package:izinto/pages/home/home_route.dart';
-import 'package:izinto/pages/home/specialty_page_body.dart';
-import 'package:izinto/pages/on_boarding/first_onboard.dart';
-import 'package:izinto/utils/dimensions.dart';
 
+import '../../controllers/cart_controller.dart';
 import '../../controllers/laundry_specialty_controller.dart';
 import '../../controllers/popular_specialty_controller.dart';
 import '../../controllers/recommended_specialty_controller.dart';
+import '../../controllers/user_controller.dart';
 import '../../routes/route_helper.dart';
+import '../../utils/dimensions.dart';
 import '../auth/sign_in.dart';
 
 class SplashScreen extends StatefulWidget {

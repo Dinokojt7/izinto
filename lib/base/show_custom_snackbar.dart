@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:izinto/utils/dimensions.dart';
+
 
 import '../utils/colors.dart';
+import '../utils/dimensions.dart';
 import '../widgets/texts/big_text.dart';
 
 void showCustomSnackBar(String message,

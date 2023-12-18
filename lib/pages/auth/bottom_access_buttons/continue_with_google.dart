@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:izinto/widgets/texts/integers_and_doubles.dart';
+
 
 import '../../../services/firebase_auth_methods.dart';
 import '../../../utils/colors.dart';
 import '../../../utils/dimensions.dart';
 import '../../../widgets/texts/big_text.dart';
+import '../../../widgets/texts/integers_and_doubles.dart';
 
 class ContinueWithGoogle extends StatelessWidget {
   const ContinueWithGoogle({Key? key}) : super(key: key);

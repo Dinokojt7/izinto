@@ -1,17 +1,13 @@
+import 'package:Izinto/pages/auth/sign_in.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:izinto/pages/auth/sign_in.dart';
-import 'package:izinto/pages/auth/get_started.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:izinto/pages/home/home_page.dart';
-import 'package:izinto/pages/home/main_components/main_specialty_page.dart';
-import 'package:izinto/pages/home/specialty_page_body.dart';
-import 'package:izinto/pages/home/wrapper.dart';
+
 import 'package:provider/provider.dart';
 import 'package:simple_circular_progress_bar/simple_circular_progress_bar.dart';
 import '../../controllers/otp_controller.dart';
@@ -21,7 +17,9 @@ import '../../utils/dimensions.dart';
 import '../../widgets/texts/big_text.dart';
 import 'package:pinput/pinput.dart';
 
+import '../home/home_page.dart';
 import '../home/home_route.dart';
+import 'get_started.dart';
 
 class PhoneAuth extends StatefulWidget {
   final String? phone;

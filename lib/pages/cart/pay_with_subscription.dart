@@ -1,5 +1,6 @@
+import 'package:Izinto/pages/cart/price_display.dart';
 import 'package:flutter/material.dart';
-import 'package:izinto/pages/cart/price_display.dart';
+
 
 import '../../utils/colors.dart';
 import '../../utils/dimensions.dart';

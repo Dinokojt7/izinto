@@ -3,21 +3,18 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:izinto/base/custom_loader.dart';
-import 'package:izinto/base/show_custom_snackbar.dart';
-import 'package:izinto/controllers/auth_controller.dart';
-import 'package:izinto/models/sign_up_body_model.dart';
-import 'package:izinto/routes/route_helper.dart';
-import 'package:izinto/services/firebase_auth_methods.dart';
-import 'package:izinto/utils/dimensions.dart';
-import 'package:izinto/widgets/texts/big_text.dart';
+
 import 'package:progress_indicators/progress_indicators.dart';
 import 'package:provider/provider.dart';
 
 import '../../controllers/auth/auth_provider.dart';
 import '../../controllers/auth/countdown_controller.dart';
 import '../../controllers/auth/phone_auth/otp_screen.dart';
+import '../../controllers/auth_controller.dart';
+import '../../routes/route_helper.dart';
+import '../../services/firebase_auth_methods.dart';
 import '../../utils/colors.dart';
+import '../../utils/dimensions.dart';
 import '../../widgets/main_buttons/login_button.dart';
 import '../../widgets/main_buttons/phone_auth_button.dart';
 import '../../widgets/texts/app_text_field.dart';

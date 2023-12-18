@@ -1,14 +1,15 @@
+import 'package:Izinto/pages/auth/phone_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:izinto/pages/auth/phone_auth.dart';
-import 'package:izinto/pages/home/home_page.dart';
+
 import '../../routes/route_helper.dart';
 import '../../services/firebase_auth_methods.dart';
 import '../../utils/colors.dart';
 import '../../utils/dimensions.dart';
 import '../../widgets/texts/app_text_field.dart';
 import '../../widgets/texts/big_text.dart';
+import '../home/home_page.dart';
 import '../home/wrapper.dart';
 
 class SignIn extends StatefulWidget {

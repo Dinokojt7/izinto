@@ -1,7 +1,7 @@
+import 'package:Izinto/pages/options/settings_view/settings_tiles.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:izinto/pages/options/settings_view/settings_tiles.dart';
 
 import '../../../utils/dimensions.dart';
 import '../../../widgets/texts/big_text.dart';

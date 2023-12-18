@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:izinto/widgets/texts/integers_and_doubles.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import '../../services/map_function.dart';
 import '../../utils/app_constants.dart';
@@ -13,6 +12,7 @@ import '../../utils/dimensions.dart';
 import '../../widgets/miscellaneous/app_icon.dart';
 import '../../widgets/location/address_details_view.dart';
 import '../../widgets/miscellaneous/place_not_supported.dart';
+import '../../widgets/texts/integers_and_doubles.dart';
 import '../../widgets/texts/small_text.dart';
 import 'choose_on_map.dart';
 

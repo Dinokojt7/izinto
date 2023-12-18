@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:izinto/pages/car_specialty/car_specialty_detail.dart';
 
 import '../../routes/route_helper.dart';
 import '../../utils/dimensions.dart';
 import '../../widgets/texts/big_text.dart';
 import '../../widgets/texts/small_text.dart';
+import '../car_specialty/car_specialty_detail.dart';
 
 class HubView extends StatelessWidget {
   const HubView({Key? key}) : super(key: key);

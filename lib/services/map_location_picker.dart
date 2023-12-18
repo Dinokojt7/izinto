@@ -3,8 +3,8 @@ import 'package:flutter_typeahead/flutter_typeahead.dart' hide ErrorBuilder;
 import 'package:form_builder_extra_fields/form_builder_extra_fields.dart';
 import 'package:http/http.dart';
 
+import '../logger.dart';
 import 'map_function.dart';
-import 'package:izinto/logger.dart';
 
 class PlacesAutocomplete extends StatelessWidget {
   /// API key for the map & places

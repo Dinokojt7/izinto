@@ -1,8 +1,10 @@
 import 'package:get/get.dart';
-import 'package:izinto/helpers/data/api/api_client.dart';
-import 'package:izinto/models/sign_up_body_model.dart';
-import 'package:izinto/utils/app_constants.dart';
+
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../../../models/sign_up_body_model.dart';
+import '../../../utils/app_constants.dart';
+import '../api/api_client.dart';
 
 class AuthRepo {
   final ApiClient apiClient;

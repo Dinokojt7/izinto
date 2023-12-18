@@ -8,8 +8,7 @@ import 'package:get/get_core/src/get_main.dart';
 import 'package:http/http.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter/gestures.dart';
-import 'package:izinto/pages/cart/post_checkout/cart_history.dart';
-import 'package:izinto/pages/cart/re_cart.dart';
+
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:provider/provider.dart';
 import '../../../base/no_data_page.dart';
@@ -31,6 +30,8 @@ import '../../home/wrapper.dart';
 import 'dart:async';
 import 'dart:math';
 import 'dart:ui';
+
+import '../re_cart.dart';
 
 class CartHistoryItems extends StatefulWidget {
   const CartHistoryItems({Key? key}) : super(key: key);

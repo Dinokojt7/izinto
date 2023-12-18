@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:izinto/widgets/texts/integers_and_doubles.dart';
 
 import '../../utils/dimensions.dart';
 import '../texts/big_text.dart';
+import '../texts/integers_and_doubles.dart';
 
 class PaymentCheckoutButton extends StatelessWidget {
   const PaymentCheckoutButton({

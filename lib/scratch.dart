@@ -1,9 +1,8 @@
+import 'package:Izinto/pages/cart/price_display.dart';
+import 'package:Izinto/utils/colors.dart';
+import 'package:Izinto/utils/dimensions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:izinto/pages/cart/mainCto.dart';
-import 'package:izinto/pages/cart/price_display.dart';
-import 'package:izinto/utils/colors.dart';
-import 'package:izinto/utils/dimensions.dart';
 
 class MainTest extends StatefulWidget {
   const MainTest({Key? key}) : super(key: key);

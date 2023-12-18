@@ -8,15 +8,12 @@ import 'package:geocoding/geocoding.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:intl/intl.dart';
-import 'package:izinto/controllers/recommended_specialty_controller.dart';
-import 'package:izinto/pages/home/specialty_page_body.dart';
-import 'package:izinto/pages/specialty/recommended_specialty_grid_view.dart';
-import 'package:izinto/widgets/location/address_details_view.dart';
-import 'package:izinto/widgets/wash_details_panel.dart';
+
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../controllers/car_specialty_controller.dart';
 import '../../controllers/cart_controller.dart';
+import '../../controllers/recommended_specialty_controller.dart';
 import '../../models/user.dart';
 import '../../routes/route_helper.dart';
 import '../../services/map_function.dart';
@@ -24,6 +21,8 @@ import '../../utils/colors.dart';
 import '../../utils/dimensions.dart';
 import '../../widgets/miscellaneous/app_icon.dart';
 import '../../widgets/texts/small_text.dart';
+import '../../widgets/wash_details_panel.dart';
+import '../home/specialty_page_body.dart';
 import '../home/wrapper.dart';
 
 class CarSpecialtyDetail extends StatefulWidget {

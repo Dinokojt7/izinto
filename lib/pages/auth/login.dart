@@ -5,8 +5,7 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_state_manager/src/simple/get_state.dart';
-import 'package:izinto/base/loading.dart';
-import 'package:izinto/pages/auth/access.dart';
+
 import '../../base/custom_loader.dart';
 import '../../controllers/auth_controller.dart';
 import '../../routes/route_helper.dart';
@@ -16,6 +15,7 @@ import '../../widgets/texts/big_text.dart';
 import '../../widgets/main_buttons/login_button.dart';
 import '../../widgets/texts/small_text.dart';
 import '../home/home_page.dart';
+import 'access.dart';
 import 'forgot_password.dart';
 
 class Login extends StatefulWidget {

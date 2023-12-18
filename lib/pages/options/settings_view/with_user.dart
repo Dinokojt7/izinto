@@ -1,9 +1,9 @@
+import 'package:Izinto/pages/options/settings_view/settings_tiles.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_state_manager/src/simple/get_state.dart';
 import 'package:intl/intl.dart';
-import 'package:izinto/pages/options/settings_view/settings_tiles.dart';
 
 import '../../../controllers/user_controller.dart';
 import '../../../utils/colors.dart';

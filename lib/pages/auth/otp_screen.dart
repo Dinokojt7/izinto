@@ -1,15 +1,15 @@
+import 'package:Izinto/pages/auth/sign_in.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:izinto/pages/auth/sign_in.dart';
-import 'package:izinto/services/firebase_auth_methods.dart';
-import 'package:izinto/widgets/main_buttons/continue_button.dart';
+
 import 'package:otp_text_field/otp_field.dart';
 import 'package:otp_text_field/otp_field_style.dart';
 import 'package:otp_text_field/style.dart';
 import '../../controllers/otp_controller.dart';
 import '../../utils/dimensions.dart';
+import '../../widgets/main_buttons/continue_button.dart';
 
 class OTPScreen extends StatefulWidget {
   final String? phone;

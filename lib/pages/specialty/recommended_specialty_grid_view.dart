@@ -2,8 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:izinto/widgets/miscellaneous/App_column.dart';
-import 'package:izinto/widgets/miscellaneous/app_icon.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 import '../../controllers/popular_specialty_controller.dart';
@@ -11,6 +9,8 @@ import '../../controllers/recommended_specialty_controller.dart';
 import '../../routes/route_helper.dart';
 import '../../utils/colors.dart';
 import '../../utils/dimensions.dart';
+import '../../widgets/miscellaneous/App_column.dart';
+import '../../widgets/miscellaneous/app_icon.dart';
 import '../../widgets/texts/small_text.dart';
 
 class RecommendedSpecialtyGridView extends StatelessWidget {

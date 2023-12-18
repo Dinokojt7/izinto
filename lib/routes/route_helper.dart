@@ -1,23 +1,23 @@
 import 'dart:core';
 import 'package:get/get.dart';
-import 'package:izinto/models/order_model.dart';
-import 'package:izinto/pages/auth/email_sign_in.dart';
-import 'package:izinto/pages/auth/phone_auth.dart';
-import 'package:izinto/pages/auth/get_started.dart';
-import 'package:izinto/pages/cart/post_checkout/cart_history_items.dart';
-import 'package:izinto/pages/checkout/payment_page.dart';
-import 'package:izinto/pages/home/main_components/main_specialty_page.dart';
-import 'package:izinto/pages/on_boarding/first_onboard.dart';
-import 'package:izinto/pages/options/profile_settings.dart';
-import 'package:izinto/pages/specialty/recommended_specialty_Detail.dart';
-import 'package:izinto/pages/specialty/recommended_specialty_grid_view.dart';
-import 'package:izinto/pages/splash/splash_screen.dart';
+import '../models/order_model.dart';
+import '../pages/auth/email_sign_in.dart';
+import '../pages/auth/get_started.dart';
+import '../pages/auth/phone_auth.dart';
 import '../pages/cart/cart_page.dart';
+import '../pages/cart/post_checkout/cart_history_items.dart';
 import '../pages/checkout/order_received.dart';
+import '../pages/checkout/payment_page.dart';
 import '../pages/home/home_page.dart';
+import '../pages/home/main_components/main_specialty_page.dart';
+import '../pages/on_boarding/first_onboard.dart';
 import '../pages/options/location_settings.dart';
+import '../pages/options/profile_settings.dart';
 import '../pages/specialty/laundry_specialty_detail.dart';
 import '../pages/specialty/popular_specialty_detail.dart';
+import '../pages/specialty/recommended_specialty_Detail.dart';
+import '../pages/specialty/recommended_specialty_grid_view.dart';
+import '../pages/splash/splash_screen.dart';
 
 class RouteHelper {
   static const String reSplashScreen = '/re-splash-screen';

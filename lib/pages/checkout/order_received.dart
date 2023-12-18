@@ -7,9 +7,7 @@ import 'package:get/get_core/src/get_main.dart';
 import 'package:http/http.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter/gestures.dart';
-import 'package:izinto/pages/cart/post_checkout/cart_history.dart';
-import 'package:izinto/pages/notifications/inbox_view.dart';
-import 'package:izinto/widgets/texts/integers_and_doubles.dart';
+
 import 'package:provider/provider.dart';
 import '../../base/no_data_page.dart';
 import '../../controllers/cart_controller.dart';
@@ -20,6 +18,7 @@ import '../../utils/dimensions.dart';
 import '../../widgets/miscellaneous/app_icon.dart';
 import '../../widgets/texts/big_text.dart';
 import '../../widgets/flutter_analog.dart';
+import '../../widgets/texts/integers_and_doubles.dart';
 import '../../widgets/texts/small_text.dart';
 import '../auth/email_sign_in.dart';
 import '../home/home_page.dart';
@@ -27,6 +26,8 @@ import '../home/wrapper.dart';
 import 'dart:async';
 import 'dart:math';
 import 'dart:ui';
+
+import '../notifications/inbox_view.dart';
 
 class OrderReceived extends StatefulWidget {
   const OrderReceived({Key? key}) : super(key: key);

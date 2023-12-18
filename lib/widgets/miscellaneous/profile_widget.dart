@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:izinto/widgets/texts/small_text.dart';
 
 import '../../utils/dimensions.dart';
+import '../texts/small_text.dart';
 
 class ProfileWidget extends StatelessWidget {
   final String boldText;

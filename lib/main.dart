@@ -1,3 +1,8 @@
+import 'package:Izinto/pages/home/wrapper.dart';
+import 'package:Izinto/routes/route_helper.dart';
+import 'package:Izinto/services/dependency_injection.dart';
+import 'package:Izinto/services/firebase_auth_methods.dart';
+import 'package:Izinto/services/phone_auth_methods.dart';
 import 'package:device_preview/device_preview.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -8,38 +13,21 @@ import 'package:flutter/services.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:get/get.dart';
-import 'package:izinto/bindings/initial_binding.dart';
-import 'package:izinto/controllers/car_specialty_controller.dart';
-import 'package:izinto/controllers/cart_controller.dart';
-import 'package:izinto/controllers/laundry_specialty_controller.dart';
-import 'package:izinto/controllers/location_controller.dart';
-import 'package:izinto/controllers/popular_specialty_controller.dart';
-import 'package:izinto/controllers/recommended_specialty_controller.dart';
-import 'package:izinto/controllers/subscriptions.dart';
-import 'package:izinto/data_uploader_screen.dart';
+
 import 'package:izinto/helpers/dependencies.dart' as dep;
-import 'package:izinto/models/user.dart';
-import 'package:izinto/pages/cart/cart_page.dart';
-import 'package:izinto/pages/checkout/order_success.dart';
-import 'package:izinto/pages/checkout/payment_page.dart';
-import 'package:izinto/pages/home/home_page.dart';
-import 'package:izinto/pages/home/home_route.dart';
-import 'package:izinto/pages/home/wrapper.dart';
-import 'package:izinto/pages/options/profile_settings.dart';
-import 'package:izinto/pages/splash/splash_screen.dart';
-import 'package:izinto/routes/route_helper.dart';
-import 'package:izinto/scratch.dart';
-import 'package:izinto/services/dependency_injection.dart';
-import 'package:izinto/services/firebase_auth_methods.dart';
-import 'package:izinto/services/location/location_model.dart';
-import 'package:izinto/services/location/location_service.dart';
-import 'package:izinto/services/phone_auth_methods.dart';
-import 'package:izinto/utils/colors.dart';
-import 'package:izinto/widgets/location/address_details_view.dart';
+
 import 'package:provider/provider.dart';
+import 'controllers/car_specialty_controller.dart';
 import 'controllers/car_wash_support_questions_controller.dart';
+import 'controllers/cart_controller.dart';
+import 'controllers/laundry_specialty_controller.dart';
 import 'controllers/laundry_support_questions_controller.dart';
+import 'controllers/location_controller.dart';
+import 'controllers/popular_specialty_controller.dart';
+import 'controllers/recommended_specialty_controller.dart';
+import 'controllers/subscription_controller.dart';
 import 'firebase_options.dart';
+import 'models/user.dart';
 
 /// Create a [AndroidNotificationChannel] for heads up notifications
 late AndroidNotificationChannel channel;

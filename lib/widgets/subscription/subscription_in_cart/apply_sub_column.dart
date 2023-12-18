@@ -1,7 +1,6 @@
+import 'package:Izinto/widgets/subscription/subscription_in_cart/sub_column_display.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:izinto/widgets/subscription/subscription_in_cart/sub_column_display.dart';
-import '../../miscellaneous/app_icon.dart';
 
 class ApplySubColumn extends StatelessWidget {
   const ApplySubColumn({

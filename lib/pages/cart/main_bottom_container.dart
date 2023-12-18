@@ -1,6 +1,7 @@
+import 'package:Izinto/pages/cart/pay_with_subscription.dart';
+import 'package:Izinto/pages/cart/price_display.dart';
 import 'package:flutter/material.dart';
-import 'package:izinto/pages/cart/pay_with_subscription.dart';
-import 'package:izinto/pages/cart/price_display.dart';
+
 import '../../utils/dimensions.dart';
 import 'bottom_bar_lever.dart';
 

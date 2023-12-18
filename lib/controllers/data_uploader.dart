@@ -4,10 +4,10 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:izinto/firebase_ref/loading_status.dart';
-import 'package:izinto/models/recommended_specialty_model.dart';
 
+import '../firebase_ref/loading_status.dart';
 import '../firebase_ref/references.dart';
+import '../models/recommended_specialty_model.dart';
 
 class DataUploader extends GetxController {
   @override

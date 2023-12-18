@@ -3,21 +3,21 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:get/get.dart';
-import 'package:izinto/controllers/car_specialty_controller.dart';
-import 'package:izinto/controllers/car_wash_support_questions_controller.dart';
-import 'package:izinto/controllers/laundry_support_questions_controller.dart';
-import 'package:izinto/controllers/subscriptions.dart';
-import 'package:izinto/models/user.dart';
-import 'package:izinto/pages/auth/access.dart';
-import 'package:izinto/pages/checkout/payment_page.dart';
+
 import 'package:provider/provider.dart';
+import '../../controllers/car_specialty_controller.dart';
+import '../../controllers/car_wash_support_questions_controller.dart';
 import '../../controllers/cart_controller.dart';
 import '../../controllers/laundry_specialty_controller.dart';
+import '../../controllers/laundry_support_questions_controller.dart';
 import '../../controllers/popular_specialty_controller.dart';
 import '../../controllers/recommended_specialty_controller.dart';
+import '../../controllers/subscription_controller.dart';
 import '../../controllers/user_controller.dart';
+import '../../models/user.dart';
 import '../../services/map_function.dart';
 import '../../services/phone_auth_methods.dart';
+import '../auth/access.dart';
 import 'home_page.dart';
 
 class Wrapper extends StatefulWidget {

@@ -1,8 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:izinto/helpers/data/repository/auth_repo.dart';
-import 'package:izinto/models/response_model.dart';
-import 'package:izinto/models/sign_up_body_model.dart';
+
+
+import '../helpers/data/repository/auth_repo.dart';
+import '../models/response_model.dart';
+import '../models/sign_up_body_model.dart';
 
 class AuthController extends GetxController implements GetxService {
   final AuthRepo authRepo;
